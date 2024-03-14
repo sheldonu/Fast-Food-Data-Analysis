@@ -12,7 +12,13 @@
 
 # Data Analysis Results
 
-{List the questions and the answers you found by doing this analysis.}
+Question 1:
+
+Answer 1:
+
+Question 2:
+
+Answer 2:
 
 # Development Environment
 
