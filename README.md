@@ -1,10 +1,6 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
-{Provide a description of the data set that you are analyzing.  Include the link of where you obtained the data.}
-
-{Describe your purpose for writing this software to analyze the data.}
+This is a sample of using python pandas in order to analyze a dataset about fast food nutrition. The dataset is downloaded from the well-known website: https://www.kaggle.com/datasets/joebeachcapital/fast-food as a csv file. The data displays information from multiple fast food places and gives the nutritional facts about each item on the menu. I wrote this software to compare what items are better than others and to provide an easy way for others to keep a 2,000 calorie daily diet.
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the data set, the questions and answers, the code running and a walkthrough of the code.}
 
