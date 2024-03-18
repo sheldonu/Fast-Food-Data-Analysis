@@ -25,8 +25,8 @@ Answer 2:
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Python Data Analysis](https://www.youtube.com/watch?v=7eh4d6sabA0)
+* [Fast Food Dataset](https://www.kaggle.com/datasets/joebeachcapital/fast-food)
 
 # Future Work
 
