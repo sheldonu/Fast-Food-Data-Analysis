@@ -18,9 +18,13 @@ Answer 2:
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+- Python 3.10.4
+- pandas
+- csv file
+- GitHub
+- Git
 
-{Describe the programming language that you used and any libraries.}
+
 
 # Useful Websites
 
