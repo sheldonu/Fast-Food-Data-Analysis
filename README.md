@@ -8,13 +8,17 @@ This is a sample of using python pandas in order to analyze a dataset about fast
 
 # Data Analysis Results
 
-Question 1:
+Question 1: What food item has the best protein-to-calorie ratio?
 
-Answer 1:
+Answer 1: The KENTUCKY GRILLED CHICKEN BREAST has the best protein-to-calorie ratio.
 
-Question 2:
+Question 2: What company has the most, lowest amount of sugar items?
 
-Answer 2:
+Answer 2: The data shows that Pizza Hut has the most items with the lowest amount of sugar added.
+
+Question 3: What is the accuracy on finding out what item belongs to a company based on the nutritional facts?
+
+Answer 3: The accuracy on finding this out is about 74%.
 
 # Development Environment
 
@@ -24,17 +28,15 @@ Answer 2:
 - GitHub
 - Git
 
-
-
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Python Data Analysis](https://www.youtube.com/watch?v=7eh4d6sabA0)
 * [Fast Food Dataset](https://www.kaggle.com/datasets/joebeachcapital/fast-food)
+* [10 Minutes to Pandas](https://pandas.pydata.org/docs/user_guide/10min.html#min)
+* [Exploratory Data Analysis with Pandas](https://www.kaggle.com/code/kashnitsky/topic-1-exploratory-data-analysis-with-pandas)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* The data in the csv file needs to be restructured, because it did have some minor errors in it.
+* Code could be rewritten to look a little cleaner.
+* Look up other resources to find out how to best analyze the data.
