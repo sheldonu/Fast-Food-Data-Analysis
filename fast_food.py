@@ -1,4 +1,7 @@
 import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score
 
 # Read the data from the csv file
 
@@ -13,8 +16,7 @@ print()
 
 ### 1 Question: Try to find out the food item that gives you the best ratio of calorie/protein. 
 
-
-# Calculate protein-to-calorie ratio for each item
+# Converting values to numeric
 
 fast_food_data['Protein (g)'] = pd.to_numeric(fast_food_data['Protein (g)'], errors='coerce')
 fast_food_data['Calories'] = pd.to_numeric(fast_food_data['Calories'], errors='coerce')
@@ -36,6 +38,7 @@ print()
 
 # Same code but exclude Taco Bell values
 
+# Converting values to numeric
 
 fast_food_data['Protein (g)'] = pd.to_numeric(fast_food_data['Protein (g)'], errors='coerce')
 fast_food_data['Calories'] = pd.to_numeric(fast_food_data['Calories'], errors='coerce')
@@ -68,3 +71,31 @@ best_company = company_sugar_avg.loc[company_sugar_avg['Sugars (g)'].idxmin()]
 
 print("Company with the least average sugar content:")
 print(best_company[['Company', 'Sugars (g)']])
+print()
+print()
+
+
+### 3 Question: Use machine learning to predict the accuracy of finding out what the company is based on nutritional facts
+
+
+fast_food_data.dropna(inplace=True)
+
+# Define features (X) and target variable (y)
+X = fast_food_data.drop(columns=['Company', 'Item'])
+y = fast_food_data['Company']
+
+# Split the dataset into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Initialize DecisionTreeClassifier
+clf = DecisionTreeClassifier(random_state=42)
+
+# Train the model
+clf.fit(X_train, y_train)
+
+# Predict on the testing set
+y_pred = clf.predict(X_test)
+
+# Calculate accuracy
+accuracy = accuracy_score(y_test, y_pred)
+print("Accuracy:", round(accuracy * 100, 2),"%")
