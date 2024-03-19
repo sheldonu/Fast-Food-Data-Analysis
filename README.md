@@ -1,6 +1,6 @@
 # Overview
 
-This is a sample of using python pandas in order to analyze a dataset about fast food nutrition. The dataset is downloaded from the well-known website: https://www.kaggle.com/datasets/joebeachcapital/fast-food as a csv file. The data displays information from multiple fast food places and gives the nutritional facts about each item on the menu. I wrote this software to compare what items are better than others and to provide an easy way for others to keep a 2,000 calorie daily diet.
+This is a sample of using python pandas in order to analyze a dataset about fast food nutrition. The dataset is downloaded from the well-known website: https://www.kaggle.com/datasets/joebeachcapital/fast-food as a csv file. The data displays information from multiple fast food places and gives the nutritional facts about each item on the menu. I wrote this software to compare what items are better than others and to be able to analyze the nutritional facts about each store or item.
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the data set, the questions and answers, the code running and a walkthrough of the code.}
 
